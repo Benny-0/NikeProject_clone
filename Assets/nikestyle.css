@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-color: black;
+}
+
+
+.jordon{
+    border: 1px solid;
+    border:hidden;
+    background-color: rgb(54, 53, 53); 
+    padding: 0 48px;
+    display:flex;
+}
+.jordon img{
+    padding: 7px;
+}   
+ 
+.jordonav{
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+    color:  white;
+    font-size: small;
+    display:flex;
+    gap:10px;
+    padding: 8px;
+    padding-left: 83%;
+
+}
+
+.vertical-line{
+    border-right: 2px solid;
+    height: 12px;
+}
+
+.nikeicon{
+    padding: 0 48px;
+    
+}
+.niketext button{
+   color: white;
+   border: hidden;
+   background-color: black;
+   font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+   font-size: medium; 
+}
+.niketext{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 27%;
+    
+}
+.nike-header{
+    display: flex;
+}
+
+.search img{
+    width:230px;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.search{
+    border: 1px solid;
+    border-radius: 60px;
+    width: 170%;
+    background-color: rgb(54, 53, 53);
+    display: flex ;
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+    
+}
+.boxer{
+    padding-left: 5%;
+    /* padding: 10px */
+    margin-top: 10px;
+   
+}
+
+.search p{
+    padding: 10%;
+}
+
+.heart{
+    padding-left: 6%;
+    margin: 4px;
+}
+.air img{
+    
+    padding: 0 45px;
+    width: 93.8%
+   ;
+}
+.nikepack p{
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: medium ;
+}
+.nikepack{
+    padding: 2%;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.nikepack h1{
+    font-size: 4.8em;
+}
+.shop-air p{
+    
+     background-color: white;
+     color: black;
+     padding: 10px;
+     width: 13%;
+    border: 1px solid;
+    border-radius: 20px;
+    font-weight: bold;
+  
+
+}
+.shop-air {
+    padding-top:20px ;
+    padding-left: 40%;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.popular p{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+.popular{
+    padding: 50px;
+    display: flex;
+    gap: 70%;
+    
+}
+.shop p{
+    font-size: large;
+    padding-top: 10px;
+}
+.shop-button p{
+    border: 1px solid;
+    width:25px;
+    padding: 5px;
+    border-radius: 40%;
+    text-align: center;
+}
+.shop-button{
+    display: flex;
+    gap: 10%;
+}
+
+.shop{
+    display: flex;
+    gap: 10%;
+    padding-top: 5px;
+    padding-left: 92px;
+}
+
+.right-now{
+    padding-left: 2.8%;
+    color: white;
+    font-family:Helvetica, Arial, sans-serif;
+    
+}
+.right-font{
+   padding-top: 10px; 
+}
+
+.right-now{
+display: flex;
+}
+
+.Featured-now p{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+    padding-top: 50px;
+}
+ .Featured-now{
+    padding: 50px;
+}
+
+/* .featured-img {
+    
+}
+
+.featured-img{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+   
+}
+:hover .featured-img {
+    overflow: auto;
+    white-space: nowrap;
+   
+}
+.featured-font{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+    padding-top: 50%;
+} */
+
+/* .featured {
+    display: flex;
+
+} */
+
+/* .featured-mmow{
+    overflow: auto;
+    white-space: nowrap;
+}  */
+.featured{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    /* overflow: auto;
+    white-space: nowrap; */
+}
+    .featured{
+        overflow:auto;
+        white-space: nowrap;
+    }
+    .featured::-webkit-scrollbar{
+        overflow: hidden;
+    }
+.featured-font p{
+        padding-top: 10px;
+        font-size: x-large; 
+        font-family:Helvetica, Arial, sans-serif;
+     }
+
+    .featured-font h4{
+        color: white;
+        font-family:Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        text-decoration: underline;
+        padding-top: 60px;
+    }
+
+    .clasimg img{
+       width: 18%;
+    }
+
+    .spotlight{
+       padding-top: 60px;
+
+    }
+    .spotlight{
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .spotlight::-webkit-scrollbar{
+        overflow: hidden;
+    }
+   .clasimg{
+        display: flex;
+        gap: 40px;
+    }
+
+    .you {
+        padding-left:50px ;
+    }
+
+    .miss{
+        color: white;
+        font-family:Helvetica, Arial, sans-serif;
+        
+    }
+    .you-font p{
+        padding-left: 46.7%;
+        padding-top: 10px;
+    }
+    .you-font h1{
+        font-size: 4.4em;
+        padding-left: 34%;
+    }
+    .u p{
+        padding-left: 15%  ;
+    }
+    .jor-air{
+        border: 1px solid;
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        width: 89px;
+      padding-left: 11px;
+      padding-bottom: 10px;
+       
+    }
+    .op{
+        padding-left: 46%;
+        padding-top: 20px;
+    }
+.sports{
+    padding-top:25px;
+    padding-left: 50px;
+}
+.running-font{
+    border: 1px solid;
+    border-radius: 50px;
+    border:hidden;
+    color: black;
+    background-color: white;
+    width: 20%;
+    height: 30px;
+    position: relative;
+    top: -90px;
+    
+   
+}
+
+.running-font p{
+    color: black;
+    text-align: center;
+    font-size: medium;
+    font-family:Helvetica, Arial, sans-serif;
+    padding: 5px;
+    
+  
+}
+.running img{
+    z-index: 1;
+}
+.run-move{
+    padding-left: 30px;
+}
+
+.sports{
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.sports::-webkit-scrollbar{
+    overflow:hidden;
+}
+
+.benefits img{
+    z-index: 1;
+}
+.member{
+    display: flex;
+    gap: 20px;
+    font-family:Helvetica, Arial, sans-serif;
+    padding-left: 50px;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+.member::-webkit-scrollbar{
+    overflow: hidden;
+}
+.benefits-text p{
+    color: white;
+    padding: 5px;
+}
+    
+.benefits-text h1{
+    color: white;
+    padding-top: 10px;
+}
+
+.zone {
+    border: 1px solid;
+    border-radius: 20px;
+    border: hidden;
+    text-align: center;
+    background-color: white;
+    width: 15%;
+    padding: 10px;
+}
+.benefits-text{
+    padding-left: 30px;
+    position: relative;
+    top: -200px;
+
+}
+.shoes{
+ 
+    color: white;
+    font-family:Helvetica, Arial, sans-serif;
+    
+    
+}
+.all{
+    padding-top: 20px;
+}
+.all ul li{
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+.icons{
+    display: flex;
+    gap: 200px;
+    padding-left: 20%;
+}
