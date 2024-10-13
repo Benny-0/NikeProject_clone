@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="shoestyle.css" />
+    <title>Sign In -Nike </title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <!-- <img src="images/pexels-melvin-buezo-1253763-18946900.jpg" style="background-size: cover;background-position:center; opacity:0.5; z-index: 1;"> -->
+    <header>
+    <div class="jordon">
+        <img src="Icons&Images/icons8-air-jordan-50.png" width="17px">
+        <div class="jordonav">
+            <p>Find a Store</p>
+            <div class="vertical-line"></div>
+            <p>Help</p>
+            <div class="vertical-line"></div>
+            <p><a href="C:\Users\benny\OneDrive\Desktop\NikeProjects\Assets1\nikelogin.html" style="text-decoration: none; color: white";>Join Us</a></p>
+            <div class="vertical-line"></div>
+            <p><a href="file:///C:/Users/benny/OneDrive/Desktop/NikeProjects/Assets2/shoe.html" style="text-decoration: none; color: white";>Sign In</a></p>
+        </div>
+    </div>
+</header>
+    <div class="full">
+    <div class="nike-header">
+    <div class="nikeicon">
+        <img src="Icons&Images/icons8-nike-100.png" width="60" style="padding-top: 5px;">
+        <img src="Icons&Images/icons8-air-jordan-100.png" width="27%">
+   </div>
+   </div>
+   <div class="Enter">
+    <h1>Enter your Email to join us or Sign in.</h1>
+   </div>
+   <div class="whole-select">
+    <div class="boxes">
+   <div class="Select" style="padding-top: 8px;">
+    <span class="select__flag" aria-hidden="true"></span>
+    <select class="select__input" name="country-selector" id="country-selector"> <option value="0">Select Country</option>
+        <option value="IT">India</option>
+        <option value="PT">United State oF America</option>
+        <option value="ES">Spain</option>
+        <option value="ES">Russia</option>
+        <option value="ES">South Africa</option>
+      </select>
+      <p id="countryerror" style="color:white;font-family:Helvetica, Arial, sans-serif;padding-left: 10px;line-height: 1.5;"></p>
+   </div>
+   <div class="inputt">
+    <input type="email" id="email" name="Email" placeholder="Email*" required style="padding: 15px;width:380px">
+    <p id="emailerror" style="color:azure;font-family:Helvetica, Arial, sans-serif;line-height: 1.5;padding-left: 10px;"></p>
+   </div>
+</div>
+   <div class="term">
+   <p>By continuing, I agree to Nike's <span style="text-decoration: underline;color:gold;">Privacy Policy</span> and <span style="text-decoration: underline;color:gold;">Terms of Use</span>.</p>
+</div>
+<div class="continue">
+<form  id="forms"  onsubmit="return Signin()">
+<input class="submit-button" type="submit" value="continue" style="padding: 15px;font-weight: bolder;border: 1px solid;border-radius: 20px; border: hidden;width: 13%;cursor: pointer;">
+</div>
+</div>
+</div>
+<script>
+   function Signin() {
+    var email = document.getElementById("email").value.trim(); 
+    var Country = document.getElementById("country-selector").value;
+    if (email === "") {
+        let errorMsg = "Email Required";
+        document.getElementById("emailerror").innerHTML = errorMsg;
+        return false; 
+    }
+    if (Country === "0") {
+        let errorcounter = "Select the Country";
+        document.getElementById("countryerror").innerHTML = errorcounter;
+        return false; 
+    }
+    localStorage.setItem("userEmail", email);
+     window.location.href = "create.html";
+            return false;
+}
+
+</script>
+
+
+   </body>
+
+
